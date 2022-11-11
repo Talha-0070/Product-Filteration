@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.menu{
+    width: 80%;
+    height:100vh;
+    margin: 0 auto;
+}
+
+.title{
+    text-align: center;
+    margin:50px 0px;
+}
+
+.title h2{
+    font-weight:600;
+    letter-spacing: 5px;
+    font-size:30px;
+    color:rgb(13, 44, 73);
+    margin-bottom:10px;
+}
+.title .underline{
+    border:3px solid #0e2f88;
+    width:80px;
+    margin: 0 auto;
+
+}
+article{
+    width:600px;
+    display:flex;
+    margin:20px 30px;
+}
+.section-center{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    transition:all 0.5s;
+}
+.menu-item img{
+    width:100%;
+    object-fit: cover;
+    transition:all 0.2s ease-in-out;
+}
+.menu-item img:hover{
+    transform:translateY(-10px);
+}
+.menu-item .image{
+    width:250px;
+    height:180px;
+    border-radius:5px;
+
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #dbdbdb;
+    padding: 0 0 10px 0;
+}
+
+header h4{
+    font-size:18px;
+}
+.item-info{
+    margin:0 0 0 10px;
+    padding:0 10px;
+}
+.item-info .price{
+    color:#e68200;
+}
+.item-text{
+    margin: 10px 0px;
+    font-size:14px;
+    line-height:25px;
+    color:#5a5a5a;
+}
+
+.btn-container {
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.btn-container button{
+    padding:5px 20px;
+    margin:0px 5px;
+    background:none;
+    border:none;
+    border-radius: 5px;
+    background-color:#e6e6e6;
+    color:#333;
+    font-size:16px;
+    transition: all 0.2s ease-in-out;
+}
+.btn-container button:hover{
+    cursor:pointer;
+    background-color:#eedf0a;
+}
+.btn-container .active{
+    background-color:#eedf0a;
+}
+
